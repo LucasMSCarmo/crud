@@ -1,7 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const { calcularIdade } = require('./utils');
 
 const app = express();
+
+// Permite que o frontend acesse o backend via requisições HTTP (CORS)
+app.use(cors());
 app.use(express.json());
 
 let pessoas = [];
