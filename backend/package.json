@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -17,4 +18,31 @@
     "jest": "^30.5.2",
     "supertest": "^7.3.1"
   }
+=======
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint .",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.13.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.7",
+        "jest": "^30.5.2",
+        "prettier": "^3.9.10",
+        "supertest": "^7.3.1"
+    }
+>>>>>>> Stashed changes
 }
